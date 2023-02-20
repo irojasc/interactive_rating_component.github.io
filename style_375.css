@@ -1,0 +1,13 @@
+main{
+    width: 100%;
+    min-width: 320px;
+}
+
+.form{
+    width: 90%;
+    min-width: 90%;
+} 
+
+.text p {
+    font-size: 1.1rem;
+}
