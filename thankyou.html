@@ -21,11 +21,21 @@
 
         </div>
     </main>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.thevirtualape.com/">irojasc</a>.
+    </div>
     
     <script>
     function show() {
         const arr = window.location.search.split("=");
-        document.getElementById("text-changed").innerText = "You selected " + +arr[1] + " out of 5";
+        if(typeof(Number(arr[1])) == "number"){
+            console.log("Es un numero");
+            document.getElementById("text-changed").innerText = "You selected " + +arr[1] + " out of 5";
+        }else{
+            document.getElementById("text-changed").innerText = "You selected 0 out of 5";
+        }
     } 
     show();
     </script>
