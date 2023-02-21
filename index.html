@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" media="(max-width: 375px)" href="./style_375.css">
+  <link rel="stylesheet" media="(max-width: 450px)" href="./style_375.css">
 
   <title>Frontend Mentor | Interactive rating component</title>
 
@@ -24,7 +24,7 @@
 
     <!-- Rating state start -->
 
-    <form class="form" action="">
+    <form class="form" action="thankyou.html" method="get">
       <div class="star-icon-container"><span class="star-icon"></span></div>
       <div class="text">
         <h2>How did we do?</h2>
@@ -32,18 +32,18 @@
           to help us improve our offering!</p>
       </div>
       <div class="buttons">
-        <input type="radio" name="form_" id="1_" style="display: none;">
+        <input type="radio" name="form_" id="1_" style="display: none;" value="1">
         <label for="1_"><div class="btn-options btn-1">1</div></label>
-        <input type="radio" name="form_" id="2_" style="display: none;">
+        <input type="radio" name="form_" id="2_" style="display: none;" value="2">
         <label for="2_"><div class="btn-options btn-2">2</div></label>
-        <input type="radio" name="form_" id="3_" style="display: none;">
+        <input type="radio" name="form_" id="3_" style="display: none;" value="3">
         <label for="3_"><div class="btn-options btn-3">3</div></label>
-        <input type="radio" name="form_" id="4_" style="display: none;">
+        <input type="radio" name="form_" id="4_" style="display: none;" value="4">
         <label for="4_"><div class="btn-options btn-4">4</div></label>
-        <input type="radio" id="5_" name="form_" style="display: none;">
+        <input type="radio" id="5_" name="form_" style="display: none;" value="5">
         <label for="5_"><div class="btn-options btn-1">5</div></label>
       </div>
-      <button class="submit" type="submit">SUBMIT</button>
+      <button class="submit" type="submit" value="submit">SUBMIT</button>
     </form>
 
   </main>
