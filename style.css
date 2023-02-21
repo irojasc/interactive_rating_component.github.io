@@ -150,6 +150,7 @@ main{
     font-size: 1.4rem;
     text-align: center;
     line-height: 22px;
+    color: var(--Medium-Grey);
 }
 
 label>div:hover{
